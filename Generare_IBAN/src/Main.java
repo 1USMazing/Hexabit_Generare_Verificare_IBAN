@@ -94,12 +94,11 @@ public class Main {
     public static void main(String[] args) {
 
         String iban = generare_IBAN_artificial();
-        String iban_test = "RO00AAAA1B31007593840000";
-        System.out.println("Generare IBAN artificial: " + iban_test);
-
         //String iban_test = "RO00AAAA1B31007593840000";
 
-        String iban_final = verificare_iban(iban_test);
+        System.out.println("Generare IBAN artificial: " + iban);
+
+        String iban_final = verificare_iban(iban);
         System.out.println("IBAN final: " + iban_final);
     }
 }
